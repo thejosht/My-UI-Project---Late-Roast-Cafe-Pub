@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Get in touch with The Late Roast—location, hours, and contact information."
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body id="contact">
+    <!-- HEADER -->
+    <header id="main-header">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/Late Roast Logo.png" alt="The Late Roast Logo" />
+        </a>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li class="book-button">
+            <a href="book.html"class="active">Book</a>
+            <div class="book-bg"></div>
+            <!-- Semi-transparent rectangle -->
+          </li>
+        </ul>
+      </nav>
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank">
+          <img src="images/Facebook Icon.png" alt="Facebook" />
+        </a>
+        <a href="https://www.instagram.com" target="_blank">
+          <img src="images/IG Logo.png" alt="Instagram" />
+        </a>
+      </div>
+    </header>
+    <!-- Shorter Golden Line -->
+    <div class="header-line"></div>
+  <body id="book">
+  <!-- ========== BOOKING SECTION ========== -->
+  <section id="booking-section">
+    <div class="booking-container">
+      <h1>Book Our Private Room</h1>
+      <p>
+        Our private room at The Late Roast is perfect for groups up to 20 people. 
+        Whether it’s a birthday, meeting, or just a night out, we’ve got you covered.
+      </p>
+      <p><strong>Price: $99 per Hour</strong></p>
+      
+      <!-- BOOKING FORM -->
+      <section id="booking">
+        <h1>Book Our Private Room</h1>
+        <p>The ideal space for groups of up to 20 people. $99 per hour.</p>
+        <form id="booking-form" class="booking-form">
+            <div class="form-group">
+                <label for="fullName">Full Name</label>
+                <input type="text" id="fullName" placeholder="Enter your name" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="123-456-7890" required>
+            </div>
+        
+            <div class="form-group">
+                <label for="eventDate">Event Date</label>
+                <input type="date" id="eventDate" required>
+            </div>
+        
+            <div class="time-group">
+                <div class="form-group">
+                    <label for="startTime">Start Time</label>
+                    <input type="time" id="startTime" required>
+                </div>
+                <div class="form-group">
+                    <label for="endTime">End Time</label>
+                    <input type="time" id="endTime" required>
+                </div>
+            </div>
+        
+            <div class="guest-event-group">
+                <div class="form-group">
+                    <label for="guestCount">Approximate Guest Count</label>
+                    <select id="guestCount" required>
+                        <option value="">Select</option>
+                        <option value="5">5</option>
+                        <option value="10">10</option>
+                        <option value="15">15</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="eventDetails">Event Details</label>
+                    <textarea id="eventDetails" rows="3" placeholder="Enter details"></textarea>
+                </div>
+            </div>
+        
+            <button type="submit" class="btn-book">Book Now</button>
+        </form>
+        
+
+      <!-- Error Message  -->
+      <p id="booking-error" class="error-message" style="display: none; color: red;">
+      </p>
+    </div>
+
+      <div class="booking-image">
+        <img src="images/image 1 (P6).png" alt="Private Room Setup" />
+      </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer id="main-footer">
+      <div class="footer-container">
+        <!-- Location Section -->
+        <div class="footer-section">
+          <h3>Location</h3>
+          <p>123 Byward Market Ave, Ottawa, ON, N6F 4T8</p>
+        </div>
+
+        <!-- Hours Section -->
+        <div class="footer-section">
+          <h3>Hours</h3>
+          <p>Monday - Sunday | 7h30am to 2am</p>
+        </div>
+
+        <!-- Social Media Section -->
+        <div class="footer-section">
+          <h3>Find Us On</h3>
+          <div class="social-icons">
+            <a href="https://www.facebook.com" target="_blank">
+              <img src="images/Facebook Icon.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com" target="_blank">
+              <img src="images/IG Logo.png" alt="Instagram" />
+            </a>
+          </div>
+
+          <!-- Contact Section -->
+        </div>
+        <div class="footer-section">
+          <h3>Contact Us</h3>
+          <p>lateroast1947@gmail.com</p>
+          <p>123-456-7890</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
